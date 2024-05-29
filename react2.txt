@@ -1,0 +1,15 @@
+Instalasi dan Konfigurasi
+
+1.Build Tools
+->viteJS
+
+2.Instalasi vite
+->PNPM create vite
+
+3.Instalasi PNPM
+npm install -g pnpm
+
+4.Dist 
+->client web
+
+

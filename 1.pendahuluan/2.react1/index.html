@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar React</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- babeljs -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        // membuat komponen
+        function Header({name}) {
+            return(<>
+            <h1 className="heading">Belajar React Bareng {name ? name : "WPU"} 🐱‍🏍</h1>
+            <img src="" alt="My Image" width="80" />
+            <p onClick={e =>{alert('ok!')}}>Belajar React itu mudah dan menyenangkan bukan ?!</p>
+            </>);
+
+        };
+        // looping
+        function HomePage() {
+            const students = ['Sandhika','Doddy','Erik'];
+            const [likes, setLikes] = React.useState (0);
+
+            function IncrementClick(){
+                setLikes(likes + 1);
+            };
+
+            function DecrementClick(){
+                setLikes(likes - 1);
+            };
+            function handleReset(){
+
+                setLikes(0);
+            };
+            return (
+                <>
+                <Header />
+                <Header name="Pak Sandhika"/>
+                
+                <ul>
+                {
+                    students.map((student) => (
+                        <li key={student}>{student}</li>
+                    ))
+                }    
+                </ul>
+                <button onClick={IncrementClick}>+ </button>  
+                <h3 >({likes})</h3>  
+                <button onClick={DecrementClick} >- </button>  
+                <button onClick={handleReset}>Reset</button>  
+                </>
+            );
+        }
+        root.render(<HomePage />);
+    </script>
+</body>
+</html>  

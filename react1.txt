@@ -1,0 +1,48 @@
+Memulai React
+->Menggunakan react membutuhkan 2 script react yang bisa kita panggil lewat unkpkg.com
+->react sebagai library utama
+->react-dom agar kita bisa menggunakan method - method untuk mainipulasi dom
+ 
+EMOTE KEYBOARD
+Windows + titik
+
+->type script = text/babel atau text/JSX
+
+FUN FACT
+->setiap JSX atau babel yang memiliki element html diharuskan memggunakan tag penutup
+
+3 ATURAN JSX
+1.Selalu Mengembalikan satu element
+Solusi : Bungkus beberapa element ke dalam satu element tag kosong <> element lainnya </>
+2.Selalu Tutup semua tag
+contoh : <img />, <br />
+3.Gunakan camelCase untuk Atribut
+contoh : class pada html : className=""
+         onclick pada html : onClick={e => {alert('ok!')}} 
+
+4.KOMPONEN
+membuat komponen di function dan di return tag html;
+
+5.KOMPONEN BERSARANG
+KOMPONEN di dalam KOMPONEN
+
+6.Menggunakan Kembali Komponen
+
+7.PROPS
+->samam seperti parameter pada function yang sapat digunakan jika komponen sama tapi value berbeda
+
+8.PROPS REFACTOR
+->destructuring teknik
+->ternary
+
+9.UNIQUE KEY 
+
+10.STATE
+->Data yang berubah seiring waktu
+->biasanya diawali dengan set 
+contoh : setLikes
+
+11.HOOKS
+->Menambahakan logic 
+contoh : setState() -> untuk mengembalikan array (mengelola state)
+

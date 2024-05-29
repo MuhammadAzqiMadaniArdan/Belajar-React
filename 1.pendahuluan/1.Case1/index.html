@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar React</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+<script type="text/javascript">
+    const app = document.getElementById("app");
+    // buat element h1 
+    const rocket = document.createElement('h1');
+    // buat teks node
+    const rocketContent = document.createTextNode("Belajar React bareng WPU 🚀");
+    
+    rocket.appendChild(rocketContent);
+    app.appendChild(rocket);
+</script>
+</html>

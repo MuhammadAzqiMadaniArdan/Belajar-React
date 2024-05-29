@@ -1,0 +1,7 @@
+1.Todo List
+->persiapan
+->Membuat papan persiapan
+->menambah-pemain lawan
+->menentukan pemenang
+->menambahkan fitur time travel
+->Refactor
