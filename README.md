@@ -47,3 +47,72 @@ contoh : setLikes
 11.HOOKS
 ->Menambahakan logic 
 contoh : setState() -> untuk mengembalikan array (mengelola state)
+
+
+Instalasi dan Konfigurasi
+
+1.Build Tools
+->viteJS
+
+2.Instalasi vite
+->PNPM create vite
+
+3.Instalasi PNPM
+npm install -g pnpm
+
+4.Dist 
+->client web
+
+1. .... = Spread Operator
+
+2.Fungsi e.preventDefault()\
+->keamanan
+->agar saat melakukan submit http website tidak diredirect ke page yang lain
+contoh :
+sebelum : localhost/1234/susububuk
+setelah : localhost/1234
+
+data tetap ditambahkan tetapi http tidak tambah
+
+3.GuardClose
+-> menggunakan sepert (!name)
+
+4.Destructer 
+parameter yang terdapat pada function tetapi parameter menggunakan ({parameter}) kurung buka didalamnya
+->destructing dapat diambil dari function yang ditampilkan dan memiliki atribut atau event
+contoh :
+<Form onItem=()>
+
+function Form({onItem}){
+    
+}
+
+COMPONENT
+2.Stateless
+->tidak memeiliki State
+->menerima state hanya auntuk menampilkan data
+- >biasanya hanya menampilkan data kecil saja
+contoh :
+function header
+function Anime
+
+2.Stateful
+->punya state
+->bisa reusable
+contoh :
+function search()
+
+3.Structural COMPONENT
+->berperan membuat struktur aplikasi
+(layout,screen,pages
+)
+->contoh
+function main atau function app
+->berukuran besar dan tidak dapat dipakai kembali (non-reusable)
+
+LIFTING STATE UPP
+
+PropDrilling
+
+1.TEknik Container Component
+
