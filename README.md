@@ -1,6 +1,6 @@
 <h3>Sebuah Repositori mengenai Pembelajaran React😄</h3>
 <center>
-<p>
+<p style="text-align:center;">
  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="100" height="100"/>&nbsp;
 </p>
 </center>
