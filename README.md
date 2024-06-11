@@ -1,6 +1,10 @@
 <h3>Sebuah Repositori mengenai Pembelajaran React😄</h3>
-
-<h1>Memulai React  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="100" height="100"/>&nbsp;</h1>
+<center>
+<p>
+ <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="100" height="100"/>&nbsp;
+</p>
+</center>
+<h1>Memulai React  </h1>
 ->Menggunakan react membutuhkan 2 script react yang bisa kita panggil lewat unkpkg.com
 ->react sebagai library utama
 ->react-dom agar kita bisa menggunakan method - method untuk mainipulasi dom
